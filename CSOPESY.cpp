@@ -20,6 +20,10 @@ void clear(){
     //clear screen
 }
 
+void marquee() {
+	//doing something
+}
+
 int main()
 {
 	printHeader();

@@ -16,6 +16,10 @@ void printHeader() {
 	std::cout << "Type '" << RED << "exit" << DEFAULT << "' to quit, '" << RED  << "clear" << DEFAULT << "' to clear the screen\n";
 }
 
+void clear(){
+    //clear screen
+}
+
 int main()
 {
 	printHeader();

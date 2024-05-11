@@ -16,17 +16,35 @@ void printHeader() {
 	std::cout << "Type '" << RED << "exit" << DEFAULT << "' to quit, '" << RED  << "clear" << DEFAULT << "' to clear the screen\n";
 }
 
+//command function templates
 void clear(){
     //clear screen
+	system(cls); 
 }
 
 void marquee() {
 	//doing something
 }
 
+
 int main()
 {
+	std::string command; 
+
+	//while loop until user exits
 	printHeader();
 
+	//input
 	std::cout << "Enter Command: ";
+	std::cin >> command;
+
+
+	if (command == "clear") {
+		clear();
+		printHeader();
+	}
+	else {
+		std::cout << "efjpwfofjpejf";
+	}
+	
 }

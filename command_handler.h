@@ -35,7 +35,7 @@ void marquee() {
 }
 
 void screen() {
-    // Doing something
+    // TODO: display list of screens
     std::cout << "screen command recognized. Doing something \n";
 }
 
